@@ -1,0 +1,10 @@
+.CallsTable {
+  
+}
+
+.player {
+  &::-webkit-media-controls-panel {
+    background-color: var(--light-blue);
+    border-radius: 48px;
+  }
+}

@@ -1,0 +1,65 @@
+
+.select {
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 204px;
+}
+
+.menuBackdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.selectMenu {
+    position: fixed;
+    bottom: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--light-blue);
+    background: #FFF;
+    box-shadow: 4px 16px 50px 0px rgba(129, 135, 163, 0.24);
+    height: fit-content;
+    z-index: 1000;
+    color: var(--text-light);
+}
+
+.selectOption {
+    padding: 10px 20px;
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    &:first-child {
+        border-radius: 3px 3px 0px 0px;
+    }
+    &:last-child {
+        border-radius: 0px 0px 3px 3px;
+    }
+    &:hover {
+        color: var(--text);
+        background: var(--ui-accent-opacity)
+    }
+}
+
+.selectValue {
+    font: var(--font-s);
+    color: var(--text-semi-light);
+}
+
+.selectedIcon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--yellow-color);
+}
+
+

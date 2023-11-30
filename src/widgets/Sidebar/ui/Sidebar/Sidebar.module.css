@@ -1,0 +1,16 @@
+.Sidebar {
+  height: 100vh;
+  width: var(--sidebar-width);
+  background: var(--primary-color);
+  position: fixed;
+  box-shadow: var(--primary-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.logoContainer {
+  padding: 20px 0 32px 12px;
+}
+
+/*# sourceMappingURL=Sidebar.module.css.map */

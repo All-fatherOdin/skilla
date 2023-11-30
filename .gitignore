@@ -1,0 +1,11 @@
+
+# dependencies
+/node_modules
+
+# production
+/build
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/skilla-test.iml
+/.idea/vcs.xml
+/.idea/workspace.xml

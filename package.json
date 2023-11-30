@@ -1,0 +1,43 @@
+{
+  "name": "skilla-test",
+  "version": "0.1.0",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "scripts": {
+    "start": "webpack serve --env port=3002",
+    "build:prod": "webpack --env mode=production",
+    "build:dev": "webpack --env mode=development",
+    "eslint-fix": "eslint \"**/*.{ts,tsx}\" --fix"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+    "@svgr/webpack": "^8.1.0",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/webpack": "^5.28.5",
+    "css-loader": "^6.8.1",
+    "eslint": "8.22.0",
+    "eslint-config-standard-with-typescript": "^40.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "react-refresh": "^0.14.0",
+    "react-refresh-webpack-plugin": "^0.1.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

@@ -1,0 +1,23 @@
+.Page404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vh - var(--appbar-height) - var(--contet-padding-y) * 2);
+}
+
+.text {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.title {
+  font-size: 32px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=Page404.module.css.map */

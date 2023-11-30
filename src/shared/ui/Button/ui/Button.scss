@@ -1,0 +1,47 @@
+.outlined {
+  border: 1px solid black;
+  background: inherit;
+
+  &:hover {
+    box-shadow: 0 0 2px black;
+  }
+}
+
+.outlined.primary {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+
+  &:hover {
+    box-shadow: 0 0 2px var(--primary-color);
+  }
+}
+
+.outlined.secondary {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+
+  &:hover {
+    box-shadow: 0 0 2px var(--secondary-color);
+  }
+}
+
+.contained {
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.contained.primary {
+  background: var(--primary-color);
+
+  &:hover {
+    background: var(--primary-light-color);
+  }
+}
+
+.contained.secondary {
+  background: var(--secondary-color);
+
+  &:hover {
+    background: var(--secondary-light-color);
+  }
+}
