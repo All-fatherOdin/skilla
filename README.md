@@ -1,4 +1,4 @@
-Vercel: https://skilla-test-three.vercel.app/calls
+Vercel: https://skilla-test-three.vercel.app
 
 # Getting Started with Create React App
 
