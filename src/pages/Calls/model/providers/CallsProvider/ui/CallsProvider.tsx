@@ -40,7 +40,7 @@ function CallsProvider ({children}: PropsWithChildren) {
     const promises: Array<Promise<Blob>> = []
     const callIds: number[] = []
     calls.forEach(call => {
-      if (call.record) {
+      if (call.record && !records.some(record => record.id === call.id)) {
         callIds.push(call.id)
         promises.push(getRecord({
           partnership_id: call.partnership_id,
